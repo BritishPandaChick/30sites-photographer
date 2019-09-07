@@ -1,0 +1,206 @@
+/* Base Styles */
+body {
+  font-family: sans-serif;
+  background-color: #F0F8FF;
+  color: #111729;
+}
+
+/* Grid System */
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/* Header */
+header {
+  background-color: #4169E1;
+  height: 175px;
+}
+
+header h1 {
+  font-size: 52px;
+  color: #F0F8FF;
+  font-family: 'Handlee';
+  padding: 15px 0;
+  text-align: center;
+}
+
+header nav {
+  float: right;
+  padding: 75px 0;
+}
+
+header nav ul li{
+  display: inline-block;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #111729;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+header nav ul li a:hover {
+  color: #F0F8FF;
+}
+
+/* Features */
+#features {
+  height: 100px;
+}
+
+#features .full-width {
+  padding: 50px 0;
+}
+
+#features .third-width {
+  margin-left: 35px;
+}
+
+#features img {
+  padding: 0 75px;
+  width: 400px;
+  margin-left: 15px;
+}
+
+#features h3 {
+  font-size: 24px;
+  font-family: "Handlee";
+  margin-left: 150px;
+}
+
+#features #exhibitions button {
+  margin-left: 155px;
+}
+
+#features #events button {
+  margin-left: 190px;
+}
+
+#features #classes button {
+  margin-left: 180px;
+}
+
+/* Upcoming Events */
+#events {
+  height: 300px;
+}
+
+#events .full-width {
+  padding-bottom: 25px;
+}
+
+#events h2 {
+  font-family: 'Handlee';
+  font-size: 42px;
+}
+
+#events ul {
+  list-style: none;
+}
+
+#events ul li {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+#events p {
+  font-size: 20px;
+  line-height: 40px;
+  padding-right: 50px;
+}
+
+/* Shop */
+#shop {
+  height: 500px;
+}
+
+#shop .full-width {
+  padding-bottom: 55px;
+}
+
+#shop img {
+  width: 400px;
+  padding-bottom: 30px;
+  margin-left: 55px;
+}
+
+#shop h2 {
+  font-size: 42px;
+  font-family: 'Handlee';
+}
+
+#shop p {
+  font-size: 20px;
+  line-height: 42px;
+}
+
+#shop h3 {
+  font-family: 'Handlee';
+  font-size: 30px;
+}
+
+#shop iframe {
+  height: 400px;
+  width: 600px;
+}
+
+/* Contact */
+#contact {
+  height: 500px;
+}
+
+#contact h2 {
+  font-family: 'Handlee';
+  font-size: 42px;
+}
+
+#contact p {
+  font-size: 20px;
+}
+
+#contact-info {
+  margin-top: -65px;
+}
+
+#contact-info ul {
+  list-style: none;
+}
+
+#contact-info ul li {
+  display: inline-block;
+}
+
+#contact-info ul li a {
+  text-decoration: none;
+}
+
+#contact i {
+  padding-right: 48px;
+}
+
+#contact i:hover {
+  color: #4169E1;
+}
+
+/* Footer */
+footer {
+  font-size: 15px;
+  color: #F0F8FF;
+  padding: 15px;
+  height: 50px;
+  background-color: #4169E1;
+}
