@@ -1,0 +1,19 @@
+{
+  "name": "photographer-site",
+  "version": "1.0.0",
+  "description": "30 Days, 30 Sites Day 10 website. Photographer website. Made with HTML and Sass.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BritishPandaChick/30sites-photographer.git"
+  },
+  "author": "Sarah Bartley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BritishPandaChick/30sites-photographer/issues"
+  },
+  "homepage": "https://github.com/BritishPandaChick/30sites-photographer#readme"
+}
