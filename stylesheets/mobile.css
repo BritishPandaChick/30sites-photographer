@@ -1,0 +1,42 @@
+/* Sass Variables */
+/* Base Styles */
+body {
+  color: #333;
+  background-color: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+/* Header */
+header {
+  border: 2px solid #B22222;
+}
+header .navbar-brand {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  color: #B22222;
+}
+header li {
+  font-weight: bold;
+}
+header li a {
+  color: #333;
+  font-size: 20px;
+}
+header li a:hover {
+  color: #4169E1;
+}
+
+/* Main Styles */
+#banner {
+  background-image: url("https://cdn.pixabay.com/photo/2014/05/05/19/53/keyboard-338505_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+#banner h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=mobile.css.map */
