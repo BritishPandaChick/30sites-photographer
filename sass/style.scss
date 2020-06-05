@@ -1,3 +1,67 @@
-h2 {
-  color: red;
+/* Sass Variables */
+$headline-font: "Roboto", sans-serif;
+$paragraph-font: "Arial", sans-serif;
+$primary-color: #333;
+$headline-color: #B22222;
+$second-headline: #000080;
+$hover-color:	#4169E1;
+
+/* Base Styles */
+body {
+  color: $primary-color;
+  background-color: #fff;
+  font-family: $paragraph-font;
+}
+
+/* Header */ 
+header {
+  border: 2px solid $headline-color;
+  background-color: $headline-color;
+
+  nav {
+      font-family: $headline-font;
+      font-size: 40px;
+
+      a {
+          color: #fff;
+      }
+
+      a:hover {
+          color: $hover-color;
+      }
+  }
+
+  li {
+      font-weight: bold;
+
+      a {
+          font-size: 20px;
+      }
+  
+      a:hover {
+          color: $hover-color;
+      }
+  }
+}
+
+/* Main Styles */ 
+#banner {
+  background-image: url("https://cdn.pixabay.com/photo/2014/05/05/19/53/keyboard-338505_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+
+  div {
+      font-family: $headline-font;
+      padding: 90px 0;
+      color: $second-headline;
+
+      h2 {
+          font-size: 35px;
+      }
+
+      h3 {
+          font-size: 30px;
+      }
+  }
 }

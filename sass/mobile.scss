@@ -68,6 +68,11 @@ header {
 
 #about {
     padding: 20px 0;
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+    }
 }
 
 #spider-man {
@@ -83,10 +88,18 @@ header {
 /* Footer Styles */ 
 footer {
     background-color: $headline-color;
-    padding: 15px 0;
+    padding: 15px;
     
     p {
         color: #fff;
         font-size: 18px;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        color: $hover-color;
     }
 }
