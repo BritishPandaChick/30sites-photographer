@@ -9,17 +9,22 @@ body {
 /* Header */
 header {
   border: 2px solid #B22222;
+  background-color: #B22222;
 }
-header .navbar-brand {
+header nav {
   font-family: "Roboto", sans-serif;
   font-size: 35px;
-  color: #B22222;
+}
+header nav a {
+  color: #fff;
+}
+header nav a:hover {
+  color: #4169E1;
 }
 header li {
   font-weight: bold;
 }
 header li a {
-  color: #333;
   font-size: 20px;
 }
 header li a:hover {
@@ -31,12 +36,41 @@ header li a:hover {
   background-image: url("https://cdn.pixabay.com/photo/2014/05/05/19/53/keyboard-338505_960_720.jpg");
   background-size: cover;
   background-position: center;
-  height: 350px;
+  height: 320px;
 }
-#banner h2 {
-  text-align: center;
+#banner div {
   font-family: "Roboto", sans-serif;
+  padding: 90px 0;
+  color: #000080;
+}
+#banner div h2 {
   font-size: 30px;
+}
+#banner div h3 {
+  font-size: 25px;
+}
+
+#about {
+  padding: 20px 0;
+}
+
+#spider-man {
+  padding: 20px 0;
+}
+#spider-man h2 {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #B22222;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #B22222;
+  padding: 15px 0;
+}
+footer p {
+  color: #fff;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=mobile.css.map */
