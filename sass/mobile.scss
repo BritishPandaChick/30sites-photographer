@@ -83,6 +83,15 @@ header {
         font-family: $headline-font;
         color: $headline-color;
     }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gallery-img {
+        width: 100%;
+    }
 }
 
 /* Footer Styles */ 

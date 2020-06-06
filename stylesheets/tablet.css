@@ -40,7 +40,7 @@ header li a:hover {
 }
 #banner div {
   font-family: "Roboto", sans-serif;
-  padding: 90px 0;
+  padding: 95px 0;
   color: #000080;
 }
 #banner div h2 {
@@ -65,6 +65,13 @@ header li a:hover {
   font-size: 30px;
   font-family: "Roboto", sans-serif;
   color: #B22222;
+}
+#spider-man .gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+#spider-man .gallery-img {
+  width: 100%;
 }
 
 /* Footer Styles */

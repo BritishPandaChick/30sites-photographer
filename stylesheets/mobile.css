@@ -66,6 +66,13 @@ header li a:hover {
   font-family: "Roboto", sans-serif;
   color: #B22222;
 }
+#spider-man .gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+#spider-man .gallery-img {
+  width: 100%;
+}
 
 /* Footer Styles */
 footer {
